@@ -1,3 +1,5 @@
+package com.zcw.leet;
+
 import java.util.HashMap;
 
 /**
@@ -6,7 +8,7 @@ import java.util.HashMap;
  */
 public class TwoSum {
     public static void main(String[] args) {
-        
+        ListNode listNode = new ListNode();
         HashMap<Integer, Integer> map = new HashMap<>();
         map.put(1,100);
         int temp  = map.get(1);
